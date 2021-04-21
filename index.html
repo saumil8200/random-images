@@ -6,19 +6,24 @@
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
 
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
     </head>
     <body>
 
-        <div class="title">
-            Feeling Bored!, Just Refresh And Enjoy Awesome Images :)
+        <div class="container-lg pt-5 title">
+            <dl>
+                <dt>Feeling Bored!, Tap on images and enjoy various random images :)</dt>
+                <dd> <small> - All Images From Unsplash</dd></small>
+            </dl>
         </div>
 
-        <div class="okay" id="reload">
-            <img class="random" src="https://source.unsplash.com/random/1200x600" onClick="window.location.reload();">
-        </div>
-
-        <div class="bottom">
-            All Image Sources From <a href="https://www.unsplash.com">Unsplash.</a>
+        <div class="container-lg pt-3" id="reload">
+            <img class="img-thumbnail mx-auto d-block img-fluid" src="https://source.unsplash.com/random/1200x600" onClick="window.location.reload();">
         </div>
 
     </body>

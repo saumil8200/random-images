@@ -5,27 +5,14 @@ body {
 .title {
     padding-top: 20px;
     text-align: center;
-    font-family: 'PT Sans', sans-serif;
-    font-weight: bold;
-    font-size: 25px;
+    font-size: 20px;
     color: #120321;
 }
 
-.okay {
-    padding: 25px;
-    text-align: center;
-}
-
-.random {
-    display: inline-block;
-    margin: auto;
-    border: solid 1px #CCC;
-    -moz-box-shadow: 5px 5px 0px #999;
-    -webkit-box-shadow: 5px 5px 0px #999;
-    box-shadow: 5px 5px 0px #999;
-    padding: 5px;
-    border: solid 1px #EFEFEF;
-    border-radius: 12px;
+@media (max-width: 600px) {
+    .title {
+        font-size: 23px;
+    }
 }
 
 .bottom {
